@@ -1,0 +1,37 @@
+.winning {
+	background-color: blue !important;
+}
+
+.paragraph {
+	.background-color: gray;
+}
+
+
+
+#winning {
+	background-color: yellow;
+}
+
+.left {
+	background-color: red;
+}
+
+a[href="https://codefactory.wien"] {
+	background-color: green;
+}
+
+a:hover {
+	background-color: orange
+}
+
+h1 {
+	color: darkblue;
+}
+
+h1:hover {
+	color: teal;
+}
+
+a[href$=".wien"] {
+	background-color: orange;
+}

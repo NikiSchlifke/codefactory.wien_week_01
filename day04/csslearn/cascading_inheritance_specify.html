@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="cascading_inheritance_specify.css">
+	<title>Cascading, Inheritance &amp; Specify</title>
+	<style type="text/css">
+
+		body {
+			color: red;
+		}
+		a[href="https://codefactory.wien"] {
+			background-color: green;
+		}
+		a:hover {
+			background-color: inherit;
+		}
+		h1::first-letter {
+			color: green;
+		}
+		p::selection {
+			color: white;
+			background: black;
+		}
+	</style>
+</head>
+<body>
+	<p class="paragraph">This is a paragraph.</p>
+	<p class="paragraph, winning">So much win!</p>
+	<p id="winning">!important win!</p>
+	<h1>overall selector</h1>
+	<h1>override class</h1>
+	<a href="https://codefactory.wien">containted selector link, override in style tag</a>
+	<a href="https://ypr.wien">selector link ends with .wien</a>
+	<br><br>
+	<style type="text/css">
+		div#lorem--text {
+			color: black;
+			background-color: white;
+		}
+	</style>
+	<div id="lorem--text">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+</body>
+</html>

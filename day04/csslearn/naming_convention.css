@@ -1,0 +1,23 @@
+/* Block component */
+.button {
+	color: blue;
+}
+
+/*Element that depends upon the block*/
+.button__cost {
+	color: green;
+}
+
+.button_text {
+	color: black;
+}
+
+/*Modifier that changes the style of the block*/
+.button--wide {
+	border-style: outset;
+	width: 50px;
+}
+.button--narrow {
+	border-style: outset;
+	width: 30px;
+}
