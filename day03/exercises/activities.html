@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Weekend activities</title>
+	</head>
+	<body>
+	<h1>Saturday</h1>
+	<!-- table>((tr>th*2)+(tr>td*2)) -->
+	<!-- table>((tr>th*2)+(tr>(td>table>tr{activity$}*3)*2)) -->
+	<!-- table>((tr>th*2)+(tr>(td>table>(tr>td>{activity$})*3)*2)) -->
+	<table border="3">
+		<tr>
+			<th>Morning</th>
+			<th>Afternoon</th>
+		</tr>
+		<tr>
+			<td>
+				<table border="1">
+					<tr>
+						<td>sleep</td>
+						<td>sleep more</td>
+						<td>eat lunch</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table border="1">
+					<tr>
+						<td>grocery shopping</td>
+						<td>watch youtube</td>
+						<td>Happylab</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<h1>Sunday</h1>
+	
+	<!-- ul>(li{activity$}>ul>li{action$}*3)*3 -->
+	<ol>
+		<li>Sleep
+			<ul>
+				<li>Sleep</li>
+				<li>Sleep more</li>
+			</ul>
+		</li>
+		<li>activity2
+			<ul>
+				<li>action1</li>
+				<li>action2</li>
+			</ul>
+		</li>
+		<li>activity3
+			<ul>
+				<li>action1</li>
+				<li>action2</li>
+			</ul>
+		</li>
+	</ol>
+	</body>
+</html>

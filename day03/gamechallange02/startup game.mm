@@ -1,0 +1,37 @@
+<map version="0.9.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1487165743079" ID="ID_332704487" MODIFIED="1487169147815" TEXT="startup game">
+<node CREATED="1487165765978" ID="ID_1154403487" MODIFIED="1487165772400" POSITION="right" TEXT="video">
+<node CREATED="1487165777567" ID="ID_1121871464" MODIFIED="1487165925759" TEXT="create pitch">
+<node CREATED="1487165830082" ID="ID_1834971394" MODIFIED="1487165857975" TEXT="move to different area">
+<node CREATED="1487165861003" ID="ID_111026523" MODIFIED="1487169137932" TEXT="where do you want to live">
+<node CREATED="1487165870634" ID="ID_645624947" MODIFIED="1487165885206" TEXT="rent">
+<node CREATED="1487166042366" ID="ID_494648721" MODIFIED="1487166058918" TEXT="you can&apos;t afford rent"/>
+</node>
+<node CREATED="1487165886693" ID="ID_609398838" MODIFIED="1487166069067" TEXT="hotel">
+<node CREATED="1487166072874" ID="ID_1784902748" MODIFIED="1487166221754" TEXT="you can&apos;t affort a hotel"/>
+</node>
+<node CREATED="1487165900456" ID="ID_1062202595" MODIFIED="1487165922689" TEXT="car">
+<node CREATED="1487166105625" ID="ID_238403087" MODIFIED="1487166638825" TEXT="&quot;nice&quot; choice">
+<node CREATED="1487166233650" ID="ID_1028676734" MODIFIED="1487166628723" TEXT="sneak into conference">
+<node CREATED="1487166713591" ID="ID_500689278" MODIFIED="1487166744640" TEXT="show pitch to the least technical person in the room">
+<node CREATED="1487166750019" ID="ID_1912679869" MODIFIED="1487166807505" TEXT="recieve VC money you win."/>
+</node>
+</node>
+<node CREATED="1487166642427" ID="ID_902059045" MODIFIED="1487166664750" TEXT="show pitch to agency">
+<node CREATED="1487166667609" ID="ID_1687646385" MODIFIED="1487166690599" TEXT="the agancy refuses, game over."/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1487165928240" ID="ID_581414427" MODIFIED="1487165975018" TEXT="show pitch to friends">
+<node CREATED="1487165980616" ID="ID_1461875736" MODIFIED="1487166013792" TEXT="you friends like it but nodbody has any money, game over"/>
+</node>
+</node>
+<node CREATED="1487165801950" ID="ID_555064167" MODIFIED="1487165809992" TEXT="make product">
+<node CREATED="1487165812145" ID="ID_1521901073" MODIFIED="1487165821606" TEXT="you deliver nothing, game over"/>
+</node>
+</node>
+</node>
+</map>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact form</title>
+	</head>
+	<body>
+		<!-- form>({First Name: }+input[name=firstname]+br+{Last Name: }+input[name=lastname]+input[type=radio name=gender]*2+h3{Your Comment}+br+input[type=submit value=Submit])		 -->
+		<form action="contact.php">First Name:
+			<input type="text" name="firstname">
+			<br>Last Name:
+			<input type="text" name="lastname">
+			<br>
+			<input type="radio" name="gender" value="male">male <br>
+			<input type="radio" name="gender" value="female">female <br>
+			<h3>Your Comment</h3>
+			<textarea name="comment" cols="50" rows="10"></textarea>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
