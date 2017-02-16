@@ -1,0 +1,17 @@
+li {
+	font-size: 2vh;
+}
+
+h3 {
+	font-size: 5vh;
+	text-decoration: underline;
+}
+
+section p {
+	font-size: 2vh;
+	text-align: justify;
+}
+
+#authors {
+	font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,37 @@
+h3 {
+	font-size: 3vh;
+}
+
+nav h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+nav div h3 {
+	text-align: left;
+}
+
+#content {
+	font-size: 2vh;
+	text-align: justify;
+}
+
+#content section {
+	border-style: dotted;
+}
+
+#content section p::first-letter {
+	font-size: 3vh;
+}
+
+
+.linkbox {
+	display: inline-block;
+	font-size: 1.62vh;
+	border-style: solid;
+	border-radius: 1vh;
+	border-color: LightSlateGrey;
+	background-color: LightSteelBlue;
+	padding: 0.612vh;
+	margin: 1vh;
+}
