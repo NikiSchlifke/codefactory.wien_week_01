@@ -1,0 +1,40 @@
+
+#menu {
+    font-size: 3.125vh;
+    font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.booking {
+    font-weight: bold;
+    color: red;
+}
+
+.menu--right {
+    float: right;
+}
+
+.menu--left {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5625vh 1.5625vh;
+    text-decoration: none;
+    height: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #111;
+}
