@@ -1,0 +1,26 @@
+div {
+	border-style: dashed;
+	margin: 5px;
+}
+
+#third p {
+	visibility: hidden;
+}
+
+h1 {
+	visibility: hidden;
+}
+
+/*#second * {
+	visibility: hidden;
+}*/
+
+#second #sixth img {
+	visibility: visible;
+}
+/*#second {
+	border-color: green;
+}*/
+
+
+

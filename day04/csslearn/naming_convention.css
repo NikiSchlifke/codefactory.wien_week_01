@@ -8,16 +8,16 @@
 	color: green;
 }
 
-.button_text {
+.button__text {
 	color: black;
 }
 
 /*Modifier that changes the style of the block*/
 .button--wide {
 	border-style: outset;
-	width: 50px;
+	background-color: yellow;
 }
 .button--narrow {
 	border-style: outset;
-	width: 30px;
+	background-color: blue;
 }
