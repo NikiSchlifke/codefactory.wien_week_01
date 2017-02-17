@@ -25,6 +25,10 @@
     float: left;
 }
 
+.menu--center {
+    display: left;
+}
+
 #menu li a {
     display: block;
     color: white;
@@ -34,7 +38,9 @@
     height: 100%;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 #menu li a:hover {
     background-color: #111;
 }
+
